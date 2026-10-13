@@ -359,6 +359,38 @@ versionados; este repositório distribui o código e as instruções de build.
   trabalho posterior, mas a primeira indexação exige mais processamento.
 - Empacotamento e inicialização dependem do ambiente Linux descrito acima.
 
+## Nota ética e transparência sobre o uso de IA
+
+O Atlas PDF foi desenvolvido com assistência de inteligência artificial, incluindo
+apoio à escrita e revisão de código e documentação. Essa participação é declarada
+para que o projeto não seja apresentado como uma implementação inteiramente
+escrita à mão. A proporção exata de conteúdo produzido com assistência não foi
+mensurada.
+
+O uso de IA não transfere a responsabilidade pelo projeto: decisões de escopo,
+revisão, testes e publicação continuam sob responsabilidade de quem o desenvolve
+e mantém. Código gerado pode conter erros, dependências inadequadas ou suposições
+incorretas; assistência automatizada não substitui validação humana. A existência
+de testes também não constitui garantia de ausência de falhas.
+
+Há uma distinção entre **IA utilizada no desenvolvimento** e **IA utilizada pelo
+aplicativo**. Durante o uso, o Atlas executa um modelo de embeddings localmente
+para auxiliar a organização dos PDFs. Não envia o acervo a um LLM remoto. Isso
+não deve ser interpretado como uma declaração sobre quais ferramentas foram
+utilizadas durante todo o histórico de desenvolvimento.
+
+As classificações são sugestões, sujeitas aos limites e vieses do modelo e das
+heurísticas. Elas podem funcionar de forma desigual entre idiomas, áreas e tipos
+de documento. O usuário pode inspecionar evidências e corrigir categorias; as
+pontuações não devem ser tratadas como certeza ou avaliação da qualidade de uma
+obra.
+
+O projeto reconhece a contribuição dos autores dos modelos, bibliotecas e demais
+componentes de terceiros. Usar IA não elimina obrigações de atribuição, licença
+ou respeito à privacidade. Ao contribuir, declare assistência relevante de IA,
+revise os resultados e evite incluir documentos pessoais ou conteúdo confidencial
+em prompts, exemplos, logs e materiais publicados.
+
 ## Contribuições e componentes de terceiros
 
 Ao relatar um problema, inclua distribuição, versão do Python/Node, comando
