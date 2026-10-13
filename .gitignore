@@ -1,0 +1,34 @@
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+data/
+
+# Configuração e dados pessoais
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+*.pdf
+
+# Assets baixados e verificados por tools/prepare_semantic.py
+assets/models/minilm/model.onnx
+assets/models/minilm/tokenizer.json
+
+# Auditorias do acervo pessoal (preservadas somente neste computador)
+docs/*audit*.json
+
+# Ambientes e resultados locais
+.venv/
+venv/
+coverage/
+test-results/
+playwright-report/
+.DS_Store
